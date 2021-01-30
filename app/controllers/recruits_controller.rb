@@ -3,7 +3,7 @@ class RecruitsController < ApplicationController
 
   # GET /recruits or /recruits.json
   def index
-    @recruits = Recruit.all
+    @recruits = Recruit.all.order("created_at DESC")
   end
 
   # GET /recruits/1 or /recruits/1.json
