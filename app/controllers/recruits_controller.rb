@@ -4,6 +4,7 @@ class RecruitsController < ApplicationController
   # GET /recruits or /recruits.json
   def index
     @recruits = Recruit.all.order("created_at DESC")
+    @recruit = Recruit.new
   end
 
   # GET /recruits/1 or /recruits/1.json
@@ -25,7 +26,7 @@ class RecruitsController < ApplicationController
 
     respond_to do |format|
       if @recruit.save
-        format.html { redirect_to @recruit, notice: "Recruit was successfully created." }
+        format.html { redirect_to root_path, notice: "Recruit was successfully created." }
         format.json { render :show, status: :created, location: @recruit }
       else
         format.html { render :new, status: :unprocessable_entity }

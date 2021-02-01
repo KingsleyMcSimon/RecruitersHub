@@ -1,22 +1,9 @@
-<%= form_with(model: recruit) do |form| %>
-  <% if recruit.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(recruit.errors.count, "error") %> prohibited this recruit from being saved:</h2>
-
-      <ul>
-        <% recruit.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
-
+<%= simple_form_for(@recruit) do |f|  %>
+  <%= f.error_notification  %>
   <div class="field">
-    <%= form.label :recruit %>
-    <%= form.text_area :recruit %>
+  <div class="control">
+  <%= f.input :recruit, label: "Recruit about it", input_html: { class: "textarea " }, wrapper: false, label_html: {class: "label" }, placeholder: "Compose a new conversation...recruit ",  autofocus: true %>
   </div>
-
-  <div class="actions">
-    <%= form.submit %>
   </div>
-<% end %>
+  <%= f.button :submit, class: "button is-info" %>
+  <% end %>
