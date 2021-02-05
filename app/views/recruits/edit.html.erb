@@ -1,6 +1,21 @@
-<h1>Editing Recruit</h1>
+<div class="section">
+	<div class="container">
+		<div class="columns is-centered">
+			<div class="column is-half">
+				<h1 class="title">Editing Recruit</h1>
+				<%= render 'form', recruit: @recruit %>
+			</div>
+		</div>
+	</div>
+</div>
 
-<%= render 'form', recruit: @recruit %>
-
-<%= link_to 'Show', @recruit %> |
-<%= link_to 'Back', recruits_path %>
+<nav class="navbar is-fixed-bottom">
+	<div class="navbar-menu">
+		<div class="navbar-item">
+			<div class="field is-grouped">
+				<p class="control">
+					<%= link_to 'Cancel', recruits_path, class: "button is-dark" %>
+				</p>
+		</div>
+	</div>
+</nav>
