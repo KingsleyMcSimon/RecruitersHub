@@ -78,4 +78,4 @@ I used this project to add to my knowledge of the Ruby On Rails web technology u
 
 [Web-Crunch video 3](https://www.youtube.com/watch?v=V4h7-hR_WME) was very handy in putting this application together.
 
-Also as many that supported us to see to this project, many thanks.
+Also as many that supported me to see to this project, many thanks.
