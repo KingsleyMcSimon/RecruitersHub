@@ -79,6 +79,7 @@ Distributed under the MIT Licence. See [Licence](https://opensource.org/licenses
 I used this project to add to my knowledge of the Ruby On Rails web technology used in building this application.
 
 # Acknowledgements/References:
+[AhmedCastro](https://www.youtube.com/watch?v=KdDa4cXKckI),
 
 [Web-Crunch video 1](https://www.youtube.com/watch?v=5gUysPm64a4),
 
