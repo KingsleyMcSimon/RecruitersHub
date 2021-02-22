@@ -1,3 +1,11 @@
+
+# RoR Capstone Project - Twitter redesign 
+
+This project has the initial code for the Ruby On Rails capstone project that has to do with Twitter clone where a new user can sign up, a user with an account can sign in and create a post but in this project, i called it RecruitersHub. It all plays the same function as the one explained above. A new recruit can sign up, a recruit can sign in and create a post and probably see who follows him or her.
+
+### Entity Relationship Diagram 📊
+![screenshoot](doc/Entity Relationship Diagram - Twitter Redesign.png)
+
 # Name of Project:
 
 Twitter like application called RecruitersHub
