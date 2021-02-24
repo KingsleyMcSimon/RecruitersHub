@@ -6,6 +6,12 @@ This project has the initial code for the Ruby On Rails capstone project that ha
 ### Entity Relationship Diagram 📊
 ![screenshot](docs/ERD-Twitter-Redesign.png)
 
+### Create account 
+![screenshot](docs/NewSignUp.png)
+
+### Login
+![screenshot](docs/NewLogin.png)
+
 # Name of Project:
 
 Twitter like application called RecruitersHub
