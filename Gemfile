@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.0'
 
-# gem 'pg'
+gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.1'
@@ -56,9 +56,9 @@ group :development do
   gem 'sqlite3', '~> 1.4'
 end
 
-group :production do
-  gem 'pg', '~> 1.2', '>= 1.2.3'
-end
+# group :production do
+#   gem 'pg', '~> 1.2', '>= 1.2.3'
+# end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver

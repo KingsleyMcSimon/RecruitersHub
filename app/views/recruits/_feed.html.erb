@@ -20,7 +20,7 @@
     <article class="media">
     <div class="media-left">
     <figure class="image is-64x64">
-    <%= gravatar_image_tag(current_user.email, size: 64, alt: current_user.name) %>
+    
     </figure>
     </div>
     <div class="media-content">
@@ -29,10 +29,10 @@
     <small><%= recruit.user.username %></small><br />
     <p><%= recruit.recruit %></p>
     </div>
-    <% if user_signed_in? %>
+    <% if user_signed_in? && current_user.id == recruit.user_id %>
     <nav class="level">
     <div class="level-left is-mobile">
-    <%= link_to capt, class: "level-item" do %>
+    <%= link_to recruit, class: "level-item" do %>
         <span class="icon"><i class="fa fa-link" aria-hidden="true"></i></span>
         <% end %>
         <%= link_to edit_recruit_path(recruit), class: "level-item" do %>
