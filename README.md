@@ -6,11 +6,17 @@ This project has the initial code for the Ruby On Rails capstone project that ha
 ### Entity Relationship Diagram 📊
 ![screenshot](docs/ERD-Twitter-Redesign.png)
 
+### Home page
+![screenshot](docs/HomePage.png)
+
 ### Create account 
 ![screenshot](docs/NewSignUp.png)
 
 ### Login
 ![screenshot](docs/NewLogin.png)
+
+### Create a Post
+![screenshot](docs/PostCreatedSuccessfully.png)
 
 # Name of Project:
 
