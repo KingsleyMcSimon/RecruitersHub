@@ -16,7 +16,7 @@ This project has the initial code for the Ruby On Rails capstone project that ha
 ![screenshot](docs/NewLogin.png)
 
 ### Create a Post
-![screenshot](docs/Post Created Successfully.png)
+![screenshot](docs/PostCreatedSuccessfully.png)
 
 # Name of Project:
 
