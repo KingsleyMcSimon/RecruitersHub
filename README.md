@@ -86,11 +86,16 @@ Distributed under the MIT Licence. See [Licence](https://opensource.org/licenses
 
 [Project On Github](https://github.com/KingsleyMcSimon/RecruitersHub)
 
+# Live link on Heroku
+[RecruitersHub](https://recruitershub.herokuapp.com/)
+
 # What Was Learnt During The Project:
 
 I used this project to add to my knowledge of the Ruby On Rails web technology used in building this application.
 
 # Acknowledgements/References:
+[Codemy](https://www.youtube.com/watch?v=kxNneOy8ewU),
+
 [AhmedCastro](https://www.youtube.com/watch?v=KdDa4cXKckI),
 
 [Web-Crunch video 1](https://www.youtube.com/watch?v=5gUysPm64a4),
