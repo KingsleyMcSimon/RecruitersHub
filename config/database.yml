@@ -11,7 +11,7 @@ timeout: 5000
 
 development:
 <<: *default
-database: nps_development
+database: nps_postgresql
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
