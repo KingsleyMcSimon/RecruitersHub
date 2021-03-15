@@ -55,6 +55,7 @@ group :development do
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   # gem 'sqlite3', '~> 1.4'
   gem 'pg', '~> 1.2', '>= 1.2.3'
+  gem 'bullet', '~> 6.1', '>= 6.1.4'
   
 end
 
