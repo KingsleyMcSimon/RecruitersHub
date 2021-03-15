@@ -59,6 +59,10 @@ group :development do
   
 end
 
+group :optimization do
+  gem 'bullet', '~> 6.1', '>= 6.1.4' 
+end
+
 group :production do
   gem 'pg', '~> 1.2', '>= 1.2.3'
 end
