@@ -95,6 +95,9 @@ Distributed under the MIT Licence. See [Licence](https://opensource.org/licenses
 I used this project to add to my knowledge of the Ruby On Rails web technology used in building this application.
 
 # Acknowledgements/References:
+
+[BulletGem](https://www.123ish.com/en/entries/2235-optimize-your-rails-code-with-bullet-gem-and-speed-up-your-site-),
+
 [Codemy](https://www.youtube.com/watch?v=kxNneOy8ewU),
 
 [AhmedCastro](https://www.youtube.com/watch?v=KdDa4cXKckI),
