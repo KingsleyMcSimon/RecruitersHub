@@ -54,13 +54,15 @@ group :development do
   gem 'guard', '~> 2.16', '>= 2.16.2'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   # gem 'sqlite3', '~> 1.4'
-  gem 'pg', '~> 1.2', '>= 1.2.3'
+  # gem 'pg', '~> 1.2', '>= 1.2.3'
   
 end
 
-group :production do
+group :development, :production do 
   gem 'pg', '~> 1.2', '>= 1.2.3'
 end
+
+
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
