@@ -54,7 +54,7 @@ Ruby On Rails, Bulma - a CSS framework.
 
 5. Add some gems like: gem 'better_errors', gem 'guard', gem 'guard-livereload', gem 'web-console', gem 'bulma-rails', gem 'devise', gem 'gravatar_image_tag', gem 'simple_form' from [RubyGemsSite](https://rubygems.org) to get the latest version of the gem, 'save' and run 'bundle install' to install the gem.
 
-6. Ensure you bring up your rails application using 'rails server' and run 'rails generate scaffold (and the model you want to use, in my case i used Capt capt:text)' and then ran the 'rails db:migrate' command later to get started with the project.
+6. Ensure you bring up your rails application using 'rails server' and run 'rails generate scaffold (and the model you want to use, in my case i used Recruit recruit:text)' and then ran the 'rails db:migrate' command later to get started with the project.
 
 7. yarn install --check-files  run this command in case you experienced webpack error in your application. 
 

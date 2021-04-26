@@ -82,8 +82,8 @@ test:
 production:
   <<: *default
 
-optimization:
-  <<: *development
+# optimization:
+#   <<: *development
 
 
   # Production depends on precompilation of packs prior to booting for performance.
