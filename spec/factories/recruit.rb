@@ -1,4 +1,4 @@
 FactoryBot.define do
-    factory :recruit do
-    end
+  factory :recruit do
+  end
 end
