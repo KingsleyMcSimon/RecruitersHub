@@ -4,20 +4,20 @@
 color: white;
 }
 
- //round images
-  
-  .panel-heading {
-    background: gray;  
-  }
-  
-  .image {
-border-radius: 50%;
-    img {
-      border-radius: 50%;
-    }
-  }
+//round images
 
- .notification:not(:last-child) {
+.panel-heading {
+    background: gray;
+}
+
+.image {
+    border-radius: 50%;
+    img {
+        border-radius: 50%;
+    }
+}
+
+.notification:not(:last-child) {
     margin-bottom: 0;
 }
  
